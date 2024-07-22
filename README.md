@@ -15,13 +15,13 @@
 1.  **Initial Approach**
     
     -   Get All code base64 from Inspector and put it on file.
-    -   Tried All code on path after '/' by fetching.
+    -   Testing All code Base64 on path URL by fetching (BaseURL + Base64).
  
 2.  **Explanation The Solution**
    
     -   URL: http://greenhat.microclub.info:5626/
     -   Base64s == pathName
-    -   We need to test every code Base64s on the URL (URL + Base64s)
+    -   We need to test every code Base64s on the URL (URL + Base64)
     -   Achieve this by fetching with new URL and interpret the response
 
 4.  **Detailed Solution**
