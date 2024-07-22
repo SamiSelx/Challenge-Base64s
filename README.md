@@ -41,10 +41,14 @@
           
 4.  **Execute Script**
    
-    -   Clone the repository : ```bash
+    -   Clone the repository :
+      ```bash
       git clone https://github.com/SamiSelx/Challenge-Base64s.git
-				```
-    -   Open Terminal : `node ./index.js`
+	```
+    -   Open Terminal : 
+      ```bash
+      node ./index.js
+	```
 
 
 ## Flag:
