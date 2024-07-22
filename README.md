@@ -18,12 +18,13 @@
     -   Tried All code on path after '/' by fetching.
  
 2.  **Explanation The Solution**
+   
     -   URL: http://greenhat.microclub.info:5626/
     -   Base64s == pathName
     -   We need to test every code Base64s on the URL (URL + Base64s)
     -   Achieve this by fetching with new URL and interpret the response
 
-3.  **Detailed Solution**
+4.  **Detailed Solution**
     
     -   **Step 1**: Get all Base64s.
         -   Right click on page then open Inspect or better View page source.
@@ -37,6 +38,12 @@
         <!-- -   create function named bruteForceAttack(), the function do fetching of all paths and see the response. -->
         -   Loop the array and test every Base64 on URL By fetching and interpret the response.
         -   if the response OK then log the full URL with the right Path.
+          
+4.  **Execute Script**
+   
+    -   Clone the repository : `git clone https://github.com/SamiSelx/Challenge-Base64s.git` ```bash git clone https://github.com/SamiSelx/Challenge-Base64s.git ```
+    -   Open Terminal : `node ./index.js`
+
 
 ## Flag:
 `microCTF{Base64s_brUt3_F0Rc3r_Bl439eL}`
