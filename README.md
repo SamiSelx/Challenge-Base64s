@@ -41,7 +41,9 @@
           
 4.  **Execute Script**
    
-    -   Clone the repository : `git clone https://github.com/SamiSelx/Challenge-Base64s.git` ```bash git clone https://github.com/SamiSelx/Challenge-Base64s.git ```
+    -   Clone the repository : ```bash
+      git clone https://github.com/SamiSelx/Challenge-Base64s.git
+				```
     -   Open Terminal : `node ./index.js`
 
 
