@@ -21,7 +21,7 @@
     -   URL: http://greenhat.microclub.info:5626/
     -   Base64s == pathName
     -   We need to test every code Base64s on the URL (URL + Base64s)
-    -   Achieve this by fetch by new URL and interpret the response
+    -   Achieve this by fetching with new URL and interpret the response
 
 3.  **Detailed Solution**
     
