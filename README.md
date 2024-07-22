@@ -33,7 +33,7 @@
         -   Create file.txt and put all Base64s on it.
     -   **Step 3**: testing all Base64s on path URL.
         -   Every Base64 code is like pathName.
-        -   Create Script Brute force attack, that mean testing all paths until we got the right path.
+        -   Create Script Brute force attack, that mean testing all paths until we get the right path.
         -   Read file.txt that include all Base64s, and put all paths on array.
         <!-- -   create function named bruteForceAttack(), the function do fetching of all paths and see the response. -->
         -   Loop the array and test every Base64 on URL By fetching and interpret the response.
